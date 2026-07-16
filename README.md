@@ -13,16 +13,20 @@
 
 ## 安装
 
-### OpenClaw
+### 直接下载（无需 Git）
 
-```bash
-openclaw skills install git:ArcherDoc1/academic-peer-review
-```
+[下载 ZIP 安装包](https://github.com/ArcherDoc1/academic-peer-review/raw/refs/heads/main/academic-peer-review-skill-v1.0.0.zip)
 
-也可以下载本仓库 ZIP，解压后安装本地文件夹：
+下载并解压后，在解压目录的上一级运行：
 
 ```bash
 openclaw skills install ./academic-peer-review --as academic-peer-review
+```
+
+### OpenClaw Git 安装
+
+```bash
+openclaw skills install git:ArcherDoc1/academic-peer-review
 ```
 
 详细步骤见 [安装说明](academic-peer-review-Skill安装说明.md)。
